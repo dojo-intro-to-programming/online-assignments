@@ -1,0 +1,19 @@
+.calculator {
+  max-width: 50%;
+}
+
+.calculator-display {
+  text-align: right;
+  border: 1px solid grey;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+
+.calculator-buttons .button:last-child {
+  grid-column-start: span 4;
+}
